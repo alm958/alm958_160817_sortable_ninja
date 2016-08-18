@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>alm958_160817_sortable_ninja</title>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="styles/alm958_160817_sortable_ninja.css">
+        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#sortable").sortable();
+
+                // $(".draggable").draggable();
+                // $(".draggable").draggable( "option", "containment", "parent" );
+                // $(".draggable").draggable( "option", "snap", true );
+                // $(".draggable").draggable( "option", "snapMode", "inner" );
+            });
+        </script>
+    </head>
+    <body>
+        <ul id="sortable">
+            <li><img src="images/sort1.png" alt="third ninja slice"></li>
+            <li><img src="images/sort2.png" alt="first ninja slice"></li>
+            <li><img src="images/sort3.png" alt="fourth ninja slice"></li>
+            <li><img src="images/sort4.png" alt="second ninja slice"></li>
+            <li><img src="images/sort5.png" alt="fifth ninja slice"></li>
+        </ul>
+    </body>
+</html>
